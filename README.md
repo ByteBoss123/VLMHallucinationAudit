@@ -1,8 +1,7 @@
 # VLMHallucinationAudit
 
 Sentence-level hallucination risk classifier for VLM-generated medical
-reports, built to close the multimodal/VLM safety gap for NVIDIA's Machine
-Learning Engineer, AI Safety application.
+reports.
 
 ## Scope, disclosed upfront
 
