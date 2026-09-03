@@ -1,0 +1,12 @@
+{
+  "hypothesis": "Text-only features cannot fully detect visual hallucination without image grounding; this tests how far surface language alone gets.",
+  "n_train_sentences": 5324,
+  "n_test_sentences": 1330,
+  "test_class_balance": {
+    "correct": 971,
+    "incorrect": 359
+  },
+  "majority_baseline_f1_incorrect": 0.0,
+  "textonly_roc_auc": 0.7993,
+  "textonly_f1_incorrect": 0.5873
+}

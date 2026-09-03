@@ -1,0 +1,166 @@
+{
+  "top_hallucination_ngrams": [
+    {
+      "term": "brown",
+      "weight": 2.434
+    },
+    {
+      "term": "yellowish",
+      "weight": 2.1479
+    },
+    {
+      "term": "one",
+      "weight": 1.8023
+    },
+    {
+      "term": "black",
+      "weight": 1.7824
+    },
+    {
+      "term": "instrument",
+      "weight": 1.7654
+    },
+    {
+      "term": "instrument is",
+      "weight": 1.5421
+    },
+    {
+      "term": "dark",
+      "weight": 1.5331
+    },
+    {
+      "term": "light blue",
+      "weight": 1.4142
+    },
+    {
+      "term": "if",
+      "weight": 1.3841
+    },
+    {
+      "term": "infection visible",
+      "weight": 1.3786
+    },
+    {
+      "term": "polyps or",
+      "weight": 1.3677
+    },
+    {
+      "term": "is present",
+      "weight": 1.3281
+    },
+    {
+      "term": "the abnormality",
+      "weight": 1.3127
+    },
+    {
+      "term": "visible polyps",
+      "weight": 1.302
+    },
+    {
+      "term": "dark colored",
+      "weight": 1.2407
+    },
+    {
+      "term": "distinctly colored",
+      "weight": 1.2358
+    },
+    {
+      "term": "but",
+      "weight": 1.2355
+    },
+    {
+      "term": "of pylorus",
+      "weight": 1.2116
+    },
+    {
+      "term": "part of",
+      "weight": 1.1912
+    },
+    {
+      "term": "if present",
+      "weight": 1.1876
+    }
+  ],
+  "top_correct_ngrams": [
+    {
+      "term": "normal",
+      "weight": -1.7694
+    },
+    {
+      "term": "blue",
+      "weight": -1.6423
+    },
+    {
+      "term": "pink",
+      "weight": -1.5969
+    },
+    {
+      "term": "healthy",
+      "weight": -1.5571
+    },
+    {
+      "term": "abnormality polyps",
+      "weight": -1.5433
+    },
+    {
+      "term": "visible abnormality",
+      "weight": -1.5311
+    },
+    {
+      "term": "landmark is",
+      "weight": -1.5
+    },
+    {
+      "term": "the image",
+      "weight": -1.4545
+    },
+    {
+      "term": "no instruments",
+      "weight": -1.3952
+    },
+    {
+      "term": "no",
+      "weight": -1.3837
+    },
+    {
+      "term": "no foreign",
+      "weight": -1.3524
+    },
+    {
+      "term": "is blue",
+      "weight": -1.3272
+    },
+    {
+      "term": "polyps signs",
+      "weight": -1.3232
+    },
+    {
+      "term": "instruments are",
+      "weight": -1.2582
+    },
+    {
+      "term": "red",
+      "weight": -1.2482
+    },
+    {
+      "term": "infection present",
+      "weight": -1.1915
+    },
+    {
+      "term": "is red",
+      "weight": -1.1587
+    },
+    {
+      "term": "blue colored",
+      "weight": -1.1584
+    },
+    {
+      "term": "are present",
+      "weight": -1.1222
+    },
+    {
+      "term": "are",
+      "weight": -1.1149
+    }
+  ]
+}
