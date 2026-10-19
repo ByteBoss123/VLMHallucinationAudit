@@ -81,3 +81,20 @@ scope disclosure above.
 - `src/03_interpretability.py` — top predictive n-grams for hallucination vs. correct
 - `src/04_api.py` — FastAPI serving layer
 - `results/textonly_classifier_metrics.json`, `results/interpretability.json` — raw metrics
+
+## Running it
+
+Run all scripts from the repository root, since they use paths relative to it.
+
+1. Download `all_annotations.json`, `train.json` and `test.json` from the
+   [Gut-VLM repository](https://github.com/bhattarailab/Hallucination-Aware-VLM)
+   into a local `data/` folder (not committed).
+2. Then:
+
+```bash
+pip install -r requirements.txt
+python src/01_extract_sentences.py   # writes data/train_sentences.jsonl, data/test_sentences.jsonl
+python src/02_textonly_baseline.py   # writes results/textonly_classifier_metrics.json
+python src/03_interpretability.py    # writes results/interpretability.json
+uvicorn src.04_api:app --port 8000  # serves POST /score
+```
